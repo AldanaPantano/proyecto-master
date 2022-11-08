@@ -1,0 +1,90 @@
+/* reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* propiedades del contenedor */
+
+.contenedor {
+    
+    height: 700px;
+    background-color: blueviolet;
+    margin: 20px;
+    display: flex;
+    flex-flow: column wrap;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* propiedades de los hijos */
+
+.hijos {
+    width: 150px;
+    height: 150px;
+    background-color: aqua;
+    margin: 5px;
+}
+
+.uno {
+    background-color: blue;
+}
+
+.dos {
+    background-color: green;
+}
+
+.tres {
+    background-color: yellow;
+}
+
+/* estilos de HTML ejemplo */
+
+body {
+    background-color: rosybrown;
+}
+
+header{
+    background-color: yellowgreen;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+nav ul{ 
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+nav ul li {
+    background-color: grey;
+    padding: 10px;
+    color: whitesmoke;
+    text-shadow: 3px 2px 5px black;
+    margin: 10px;
+    border-radius: 60px;
+}
+
+main {
+    margin: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+main .noticia-uno, main .noticia-dos {
+text-align: center;
+width: 400px;
+}
+
+
+footer h3{
+    text-align: center;
+
+}
